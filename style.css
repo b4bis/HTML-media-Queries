@@ -1,0 +1,168 @@
+*  
+{
+    box-sizing: border-box;
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  
+  .header {
+    background-color: #a8a8a889;
+    color: #ffffff;
+    padding: 15px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #a8a8a8;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgb(144, 144, 144), 0 1px 2px rgb(136, 136, 136);
+  }
+  
+  .menu li:hover {
+    background-color: #190087;
+  }
+  
+  .agua {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    color: #ffff;
+    text-align: left;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgb(170, 170, 170), 0 1px 2px rgb(105, 104, 8);
+  }
+
+  .fogo {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    color: #ffff;
+    text-align: left;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgb(170, 170, 170), 0 1px 2px rgb(105, 104, 8);
+  }
+
+  .planta {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    color: #ffff;
+    text-align: left;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgb(170, 170, 170), 0 1px 2px rgb(105, 104, 8);
+  }
+  
+  
+  .footer {
+    background-color: #a8a8a889;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+
+    body{
+        background-color: #84c7fd;
+    } 
+    
+    .agua{
+        background-color: #2589db;;
+    }
+
+    .fogo{
+        background-color: #2589db;;
+    }
+
+    .planta{
+        background-color: #2589db;;
+    }
+
+
+    @media only screen and (min-width: 601px) {
+        body{
+            background-color: #26c54b;
+        }
+    
+        .agua{
+            background-color: #93d67f;;
+        }
+    
+        .fogo{
+            background-color: #93d67f;;
+        }
+    
+        .planta{
+            background-color: #93d67f;;
+        }
+
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+
+
+    
+
+  @media only screen and (min-width: 900px) {
+    body{
+        background-color: #8e8e8e;
+    }
+
+    .agua{
+        background-color: #cfcfcf;;
+    }
+
+    .fogo{
+        background-color: #cfcfcf;;
+    }
+
+    .planta{
+        background-color: #cfcfcf;;
+    }
+
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    
+   
+    }
+
+
